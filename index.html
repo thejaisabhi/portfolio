@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Abhinav Jaiswal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/5ae778656f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Abhinav</span> <br> Jaiswal From India</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus corporis inventore
+                        officia ducimus nesciunt ab nisi laborum? Obcaecati, facilis asperiores hic at iusto voluptatum
+                        recusandae consequuntur ad. Itaque earum quod, tempore recusandae cupiditate in optio rerum.
+                        Enim error natus modi rerum! Repudiandae nesciunt corrupti voluptas inventore possimus totam cum
+                        earum.</p>
+
+                    <div class="tab-titiles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contains active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>C/C++, Java, HTML, JavaScript</li>
+                            <li><span>Website Developer/Designer</span><br>Frontend Developer</li>
+                            <li><span>Internet of Things (IoT)</span><br>Arduino | NODE MCU | Arduino IDE</li>
+                            <li><span>Graphic Designing | Video Editing | Content Creations</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="experience">
+                        <ul>
+                            <li><span>Frontend Developer Intern</span><br>VSoC Community(11/2021 – 12/2021)
+                                <br> Worked on the front end of a HOTEL website and redesigned it under this internship.
+                                Optimized design for various screen sizes (desktop, mobile, tablet) using Responsively
+                                app, flexbox and media
+                                queries.
+                                Reduced page load time by running web performance tests.
+                            </li>
+                            <li><span>Educator</span><br>Shivanjali Society
+                                (06/2021 – 07/2021)
+                                <br> Provided free education to the students of class 10th and 11th in the Covid
+                                Pandemic.
+                                Taught basics of Computer Science and Web Development (HTML5, CSS3, including some
+                                projects to create simple
+                                websites) to the students of class 10th.
+                                Taught baisc concepts of C++ to the students of class 11th.
+                            </li>
+                            <li><span>YouTuber</span><br>Freelance
+                                (04/2022 – 06/2022)
+                                <br> Managed YouTube channel of @UNIK SUMIT with more than 122K Subscribers (Created
+                                contents, Designed
+                                Thumbnails, Tags, Video Editing for this channel). <br>
+                                Worked as a Video Editor on another channel named "The Trading Man" under the same
+                                client.
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology in Electronics & Communication</span><br>Mahatma Jyotiba
+                                Phule Rohilkhand University
+                                (2020 – 2024) | Bareilly, India <br>
+                                [CGPA: 8.44/10 till 4thSem ]</li>
+                            <li><span>Intermediate[Mathematics]</span><br>SSM HR SEC SCHOOL
+                                (2018 – 2020) | Gorakhpur, India <br>
+                                [Percentage: 75.6]</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------SERVICES------------------------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa est exercitationem soluta quia
+                        hic esse tenetur mollitia debitis quae laborum!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-youtube"></i>
+                    <h2>Content Creator</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa est exercitationem soluta quia
+                        hic esse tenetur mollitia debitis quae laborum!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa est exercitationem soluta quia
+                        hic esse tenetur mollitia debitis quae laborum!</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!---------------PORTFOLIO-------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/mywork1.png" alt="">
+                    <div class="layer">
+                        <h3>WeatherApp</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aperiam ducimus eum
+                            voluptatum iure fugit nihil veniam corporis maiores rem.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mywork2.png" alt="">
+                    <div class="layer">
+                        <h3>HotelPlaza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aperiam ducimus eum
+                            voluptatum iure fugit nihil veniam corporis maiores rem.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mywork3.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aperiam ducimus eum
+                            voluptatum iure fugit nihil veniam corporis maiores rem.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!---------------Contact-------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>mrjaisabhi.14@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>+91 6307673923</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                    </div>
+                    <a href="images/ABHINAV_JAISWAL_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Abhinav Jaiswal</p>
+        </div>
+    </div>
+
+   
+</body>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+</html>
